@@ -18,11 +18,11 @@ Personal customizations for Vim operations
 Configure `vim-plug` in `.vimrc`:
 ```vim
 call plug#begin('~/.vim/plugged')
-    Plug 'immortalrover/vim-cheatsheet', {'do': 'mv vim_cheatsheet.md ~/.vim/'}
+    Plug 'immortalrover/vim-cheatsheet'
 call plug#end()
 ```
 
-Then, in your `.vimrc`, add a shortcut key to open the `vim_cheatsheet.md` file, for example:
+Then, in your `.vimrc`, add a shortcut key to open the `vim-cheatsheet.md` file, for example:
 ```vim
-nnoremap <F1> :e ~/.vim/vim_cheatsheet.md
+nnoremap <F1> :e ~/.vim/plugged/vim-cheatsheet/vim-cheatsheet.md
 ```

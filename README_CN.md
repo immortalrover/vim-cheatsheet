@@ -18,11 +18,11 @@
 在`.vimrc`中配置`vim-plug`:
 ```vim
 call plug#begin('~/.vim/plugged')
-    Plug 'immortalrover/vim-cheatsheet', {'do': 'mv vim_cheatsheet.md ~/.vim/'}
+    Plug 'immortalrover/vim-cheatsheet'
 call plug#end()
 ```
 
-然后在你的`.vimrc`中添加一个快捷键打开这个文件`vim_cheatsheet.md`, 比如:
+然后在你的`.vimrc`中添加一个快捷键打开这个文件`vim-cheatsheet.md`, 比如:
 ```vim
-nnoremap <F1> :e ~/.vim/vim_cheatsheet.md
+nnoremap <F1> :e ~/.vim/plugged/vim-cheatsheet/vim-cheatsheet.md<CR>
 ```

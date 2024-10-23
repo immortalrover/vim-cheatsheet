@@ -20,3 +20,17 @@ insert:
 visual:
 - <space> forward to the end of word / 向后到单词的末尾(如果已经在末尾则到下一个单词末尾)
 # }}}
+
+# vim plugin operation / vim插件操作 {{{
+normal:
+- \dd start vimspector / 启动vimspector(一个调试窗口)
+- \dc continue to test / 继续调试
+- \dT clear breakpoints / 清除断点
+- \dk restart vimspector / 重新启动vimspector
+- \de exit vimspector / 退出vimspector
+- <F5> continue to test / 继续调试
+- <F9> toggle breakpoint / 切换断点状态(打/取消断点)
+- <F10> step over / 单步调试
+    
+
+# }}}

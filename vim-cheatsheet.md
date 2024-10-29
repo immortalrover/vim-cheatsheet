@@ -16,6 +16,7 @@ normal:
 - <space> start visual mode and select current word / 进入可视化模式并且选择当前单词
 - <F1> open vim-cheatsheet.md / 打开vim备忘录
 - <F2> visualize special words / 可视化不可见单词
+- <C-q> highlight search answers / 高亮/取消高亮搜索结果
 
 insert:
 - <C-l> go right / 向右移动一格(能够移动到最后一格的右边)
@@ -44,5 +45,8 @@ command:
 # }}}
 
 # coc.nvim 一个补全插件 {{{
-
+insert:
+- `<TAB>` code completion / 代码补全(如果有补全选项的话)
+- `<C-j>` jump next completion / 跳转到下一个代码补全
+- `<C-k>` jump prev completion / 跳转到上一个代码补全
 # }}}

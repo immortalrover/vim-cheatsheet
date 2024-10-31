@@ -14,9 +14,14 @@ normal:
 - `zz` go to the middle of the view / 到视角中间
 - `zt` go to the top of the view / 到视角顶端
 - `zb` go to the bottom of the view / 到视角底端
-- `<C-w>o` open current window / 打开当前的窗口
-- `<C-w>c` close current window / 关闭当前的窗口
-- `<C-w>w` change to next window / 切换到下一个窗口
+- `<C-w> o` open current window / 打开当前的窗口
+- `<C-w> c` close current window / 关闭当前的窗口
+- `<C-w> w` change to next window / 切换到下一个窗口
+- `<C-w> =` make all windows (almost) equally high and wide / 尽量让所有窗口同样高和宽
+- `<C-w> <` decrease current window width by N (default 1). / 减少当前窗口的宽度
+- `<C-w> >` increase current window width by N (default 1). / 增加当前窗口的宽度
+- `<C-w> -` decrease current window height by N (default 1). / 减少当前窗口的高度
+- `<C-w> +` increase current window height by N (default 1). / 增加当前窗口的高度
 # }}}
 
 # vim customization operations / vim魔改操作 {{{
